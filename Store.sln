@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30804.86
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Store.Common", "Store.Common\Store.Common.csproj", "{975F5936-7B57-4708-8BF3-D475810596B8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Backend", "Backend", "{D555B820-406B-4C74-A445-09B30FC29798}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Store.Web", "Store.Web\Store.Web.csproj", "{47F7F719-DF94-414B-A88D-8E76E3D503D9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{975F5936-7B57-4708-8BF3-D475810596B8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{975F5936-7B57-4708-8BF3-D475810596B8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{975F5936-7B57-4708-8BF3-D475810596B8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{975F5936-7B57-4708-8BF3-D475810596B8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{47F7F719-DF94-414B-A88D-8E76E3D503D9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{47F7F719-DF94-414B-A88D-8E76E3D503D9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{47F7F719-DF94-414B-A88D-8E76E3D503D9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{47F7F719-DF94-414B-A88D-8E76E3D503D9}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{47F7F719-DF94-414B-A88D-8E76E3D503D9} = {D555B820-406B-4C74-A445-09B30FC29798}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7DBB1FD3-0DCD-4F1C-889F-EB15E6B17836}
+	EndGlobalSection
+EndGlobal
