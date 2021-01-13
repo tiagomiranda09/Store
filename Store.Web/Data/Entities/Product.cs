@@ -9,12 +9,15 @@ namespace Store.Web.Data.Entities
     public class Product:IEntity
     {
         public int Id { get; set; }
+
         [MaxLength(50, ErrorMessage ="The field {0} only can contain {1} characters lenght.")]
         [Required]
         public string Name { get; set; }
 
+
         [DisplayFormat(DataFormatString ="{0:C2}", ApplyFormatInEditMode = false)]
         public decimal Price { get; set; }
+
 
         [Display(Name="Image")]
         public string ImageUrl { get; set; }
@@ -32,7 +35,8 @@ namespace Store.Web.Data.Entities
         [DisplayFormat(DataFormatString = "{0:N2}", ApplyFormatInEditMode = false)]
         public double Stock { get; set; }
 
-        
+        public User user { get; set; }
+
 
     }
 }
