@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Store.Web.Data.Entities
 {
-    public class Product
+    public class Product:IEntity
     {
         public int Id { get; set; }
         [MaxLength(50, ErrorMessage ="The field {0} only can contain {1} characters lenght.")]
